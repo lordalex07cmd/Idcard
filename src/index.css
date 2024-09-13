@@ -1,0 +1,21 @@
+/* CSS Exercício 1 lab 6*/
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.App .id-card{
+  display: flex;
+  padding: 6px;
+  background-color: white;
+  margin-bottom: 12px;
+  color: black;
+  border: 1.5px solid black;
+}
+
+.App .id-card .info{
+  text-align: left;
+  padding-left: 12px;
+  min-width: 300px;
+  line-height: 1.15em;
+}
